@@ -13,7 +13,8 @@ import cors from "cors";
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Welcome to the Movie Booking App API');
+  
+  res.send('Welcome to Movie ticket Booking  Backend side');
 });
 
 // Middlewares
